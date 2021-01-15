@@ -1,0 +1,28 @@
+<html>
+ <head> 
+  <title>Class Declaration Example</title>
+ </head>
+ <body>
+  <script>
+   class Employee
+   {
+   // It initializes the object
+    constructor(id,name)
+	{
+	 this.id = id;
+	 this.name = name;
+	}
+	
+	printDetails()
+	{
+	alert(this.id +"\n"+this.name);
+	}	
+   }
+   var emp1 = new Employee("101","vikas"),
+       emp2 = new Employee("102","Rahul");
+	   emp1.printDetails();
+	   emp2.printDetails();
+	   
+  </script>
+ </body>
+</html>
